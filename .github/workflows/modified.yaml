@@ -20,8 +20,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          # CINTENT >> CHANGE_VERSION
-          python-version: 3.8
+          # CINTENT >> CHANGE_VERSION (lowest x64 version)
+          # python-version: 3.8
+          python-version: 3.10
 
       # CINTENT >> INSERT_CINTENT
       - uses: JavidDitty/setup-cintent@3e5b2faf83a2ad32c22a1cd0f86f5f20ea53a5ab
